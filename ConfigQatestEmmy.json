@@ -1,0 +1,73 @@
+{
+  "baseUrlBO": "https://qatest-backoffice.teksial-cee.fr/login",
+  "baseUrlMonExpertEclient": "https://qatest-espace-client.monexpert-renovation-energie.fr/login",
+  "baseUrlMonExpertHome": "https://qatest.monexpert-renovation-energie.fr/",
+  "baseUrlProCee": "https://qatest.pro-cee.fr/login",
+  "baseUrlMS": "https://dev-ms.pro-cee.fr",
+  "ignoreTestFiles": [
+    "CreationOS-Isolation.feature",
+    "BAR-EN-101-T5-Ko-TEMP-FactureDevisSigneAH.feature",
+    "BAR-TH-112-T5-Ko-DEF-Facture.feature",
+    "BAR-TH-106-T5-AdresseComplete.feature",
+    "BAR-TH-106-T5-Ko-Temp-Cadastre.feature",
+    "BAR-TH-106-T5-Ko-Temp-Impots.feature",
+    "BAR-TH-106-T5-LieuDit.feature",
+    "Qualité&Depot-T5.feature",
+    "GenerationCDC&PA-T5.feature",
+    "BAR-EN-101-T2-Ko-DEF-Facture.feature",
+    "BAR-EN-102-T2-Ko-TEMP-AH.feature",
+    "BAR-EN-103-T2.feature",
+    "GenerationCDC-CdP-Non-T2.feature",
+    "GenerationCDC-CdP-Oui-T2.feature",
+    "SimulationBAR-EN-101.feature",
+    "SimulationBAR-EN-102.feature",
+    "SimulationBAR-EN-103.feature",
+    "SimulationBAR-EN-104.feature",
+    "SimulationBAR-EN-105.feature",
+    "SimulationBAR-TH-101.feature",
+    "SimulationBAR-TH-104.feature",
+    "SimulationBAR-TH-106.feature",
+    "SimulationBAR-TH-112.feature",
+    "SimulationBAR-TH-113.feature",
+    "SimulationBAR-TH-127.feature",
+    "SimulationBAR-TH-129.feature",
+    "SimulationBAR-TH-143.feature",
+    "SimulationBAR-TH-148.feature",
+    "SimulationBAR-TH-159.feature",
+    "RechercheOS.feature",
+    "RecherchePrecarity.feature",
+    "PageHome.feature",
+    "PageLogin.feature",
+    "CheckerLeContenuDesPDF-CDC&PA.feature"
+  ],
+  "defaultCommandTimeout": 40000,
+  "responseTimeout": 40000,
+  "taskTimeout": 40000,
+  "testFiles": "**/*.feature",
+  "viewportHeight": 1200,
+  "viewportWidth": 1800,
+  "video": false,
+  "env": {
+    "browserPermissions": {
+      "notifications": "allow",
+      "geolocation": "allow",
+      "camera": "block",
+      "microphone": "block",
+      "images": "allow",
+      "javascript": "allow",
+      "popups": "allow",
+      "plugins": "allow",
+      "cookies": "allow"
+    },
+    "updateSnapshots": false,
+    "TAGS": "@monExpert and @ProCee and @Visuel and @MicroService and @Prod and @Emmy and @focus"
+  },
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "cypress-file-upload"
+    ]
+  },
+  "projectId": "niaj92",
+  "chromeWebSecurity": false
+}

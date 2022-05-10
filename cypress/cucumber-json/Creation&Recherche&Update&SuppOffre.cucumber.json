@@ -1,0 +1,87 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation, Recherche, Update et suppression d'une Offre",
+    "line": 1,
+    "id": "creation,-recherche,-update-et-suppression-d'une-offre",
+    "tags": [],
+    "uri": "Creation&Recherche&Update&SuppOffre.feature",
+    "elements": [
+      {
+        "id": "creation,-recherche,-update-et-suppression-d'une-offre;creation-d-une-offre,-recherche,-update-et-suppression-de-l-offre",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Creation d une Offre, Recherche, Update et Suppression de l Offre",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Creation d Offre \"21db0caed8b24087d8c116f6915abe31\",\"e6d4e48f603d0d526607560d08bbe50e\",\"3.500550055\",\"4.500550055\",\"5.500550055\",\"2019-09-01\",\"1\",\"NewOffreTA\",\"BAR_EN_101\"",
+            "result": {
+              "status": "failed",
+              "duration": 541000000,
+              "error_message": "CypressError: `cy.request()` failed on:\n\nhttps://api.dev.teksial-stage.io/offers/v1/temp\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://api.dev.teksial-stage.io/offers/v1/temp\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"content-type\": \"application/json\",\n  \"x-api-key\": \"ZAYTYKDysVa5KyeJDhPk647YifNA7pov5myb9vMr\",\n  \"user-agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.6.0 Chrome/94.0.4606.81 Electron/15.5.1 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\",\n  \"content-length\": 551\n}\nBody: {\"code\":\"NewOffreTA\",\"exclusive\":true,\"name\":\"Offre TestAuto\",\"starts_at\":\"2019-09-01\",\"priority\":\"1\",\"filters\":{\"cdp\":{\"val\":true},\"organizations\":{\"val\":[\"21db0caed8b24087d8c116f6915abe31\",\"e6d4e48f603d0d526607560d08bbe50e\"]},\"cee\":{\"val\":[\"BAR_EN_101\"]}},\"actions\":{\"standard\":{\"field2\":\"prime\",\"type\":\"percentage\",\"val\":\"3.500550055\"},\"precaire\":{\"field\":\"prime\",\"type\":\"percentage\",\"val\":\"4.500550055\"},\"grand_precaire\":{\"field\":\"prime\",\"type\":\"percentage\",\"val\":\"5.500550055\"},\"business_bringer\":{\"field\":\"prime\",\"type\":\"percentage\",\"val\":\"0\"}}}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 404 - Not Found\nHeaders: {\n  \"date\": \"Tue, 10 May 2022 14:12:25 GMT\",\n  \"content-type\": \"text/html; charset=UTF-8\",\n  \"content-length\": \"43\",\n  \"connection\": \"keep-alive\",\n  \"x-amzn-requestid\": \"1d56631d-8daf-4cbd-9324-8fd410af9cde\",\n  \"x-amzn-remapped-connection\": \"keep-alive\",\n  \"x-amz-apigw-id\": \"R6bfcFamjoEFuPQ=\",\n  \"x-powered-by\": \"PHP/7.4.21\",\n  \"x-amzn-remapped-date\": \"Tue, 10 May 2022 14:12:25 GMT\"\n}\nBody: This is crazy, but this page was not found!\n\n    at http://localhost:37957/__cypress/runner/cypress_runner.js:164670:80\nFrom previous event:\n    at Context.request (http://localhost:37957/__cypress/runner/cypress_runner.js:164666:35)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:37957/__cypress/tests?p=cypress/integration/MicroService/Offre/Creation%2526Recherche%2526Update%2526SuppOffre.feature:2016:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:37957/__cypress/tests?p=cypress/integration/MicroService/Offre/Creation%2526Recherche%2526Update%2526SuppOffre.feature:14485:29)\n    at Context.eval (http://localhost:37957/__cypress/tests?p=cypress/integration/MicroService/Offre/Creation%2526Recherche%2526Update%2526SuppOffre.feature:13806:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Ajout de l Offre dans la table Def \"<parent_id>\",\"<adresse>\",\"<CP>\",\"<ville>\",\"<precarity>\",\"<SampleSocial>\",\"<HighSocial>\",\"<default_os>\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Recherche Offre \"<parent_id>\",\"<adresse>\",\"<CP>\",\"<ville>\",\"<precarity>\",\"<SampleSocial>\",\"<HighSocial>\",\"<default_os>\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update Offre \"<parent_id>\",\"<adresse>\",\"<CP>\",\"<ville>\",\"<NewPrecarity>\",\"<NewSampleSocial>\",\"<NewHighSocial>\",\"<NewDefault_os>\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Recherche Offre \"<parent_id>\",\"<adresse>\",\"<CP>\",\"<ville>\",\"<NewPrecarity>\",\"<NewSampleSocial>\",\"<NewHighSocial>\",\"<NewDefault_os>\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Suppression Offre",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

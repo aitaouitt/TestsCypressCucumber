@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Checker les contenus des documents CDC et PA sur les OS crées en date N-1",
+    "line": 1,
+    "id": "checker-les-contenus-des-documents-cdc-et-pa-sur-les-os-crées-en-date-n-1",
+    "tags": [],
+    "uri": "CheckerLeContenuDesPDF-CDC&PA.feature",
+    "elements": [
+      {
+        "id": "checker-les-contenus-des-documents-cdc-et-pa-sur-les-os-crées-en-date-n-1;recuperation-des-ids-os-crées-en-date-n-1-et-checker-les-pdf-de-cdc-et-pa",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Recuperation des IDs OS crées en date n-1 et Checker les PDF de CDC et PA",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 3
+          },
+          {
+            "name": "@Prod",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Filtrer sur la date n-1",
+            "result": {
+              "status": "passed",
+              "duration": 10426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Recuperation des IDs OS crées en date n-1 et Checker les PDF de CDC et PA",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

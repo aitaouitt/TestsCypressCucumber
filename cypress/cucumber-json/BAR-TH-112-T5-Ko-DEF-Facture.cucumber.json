@@ -1,0 +1,102 @@
+[
+  {
+    "description": "  Passage du BAR TH 112 avec test suppression du devis non signé et KO definitif sur la facture",
+    "keyword": "Feature",
+    "name": "BAR TH 112 KO DEF Facture",
+    "line": 1,
+    "id": "bar-th-112-ko-def-facture",
+    "tags": [],
+    "uri": "BAR-TH-112-T5-Ko-DEF-Facture.feature",
+    "elements": [
+      {
+        "id": "bar-th-112-ko-def-facture;valider-le-controle-de-devis-signé-et-le-ko-definitif-de-la-facture-pour-motif-\"date-edition<1an\"-sans-l-envoie-de-mail",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Valider le controle de devis signé et le KO Definitif de la facture pour motif \"date edition<1an\" sans l envoie de mail",
+        "tags": [
+          {
+            "name": "@monExpert",
+            "line": 57
+          },
+          {
+            "name": "@focus",
+            "line": 58
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "Valider le controle de devis \"T5\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10857000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Valider le controle de la facture en KO Definitif pour motif \"date edition<1an\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 11520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

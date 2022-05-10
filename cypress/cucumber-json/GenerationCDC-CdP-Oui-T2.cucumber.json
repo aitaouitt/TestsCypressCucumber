@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  Cette suite de tests permets de creer un OS BAR TH 104 T2,\n  telecharger le PDF du CDC puis verifier le contenu text du PDF.\n  Elle verifie l existance de:\n    La date du jour (date proposition)\n    L adresse des travaux declarer lors de la creation de l OS\n    le nom et prenom declarés sur l OS\n    le montant de la prime\n    Les texts explicatifs\n  Elle verifie l exixtance et l affichage du Pouce dans le titre du projet",
+    "keyword": "Feature",
+    "name": "Generation CDC Avec Coup de Pouce sur BAR TH 104 T2",
+    "line": 1,
+    "id": "generation-cdc-avec-coup-de-pouce-sur-bar-th-104-t2",
+    "tags": [],
+    "uri": "GenerationCDC-CdP-Oui-T2.feature",
+    "elements": [
+      {
+        "id": "generation-cdc-avec-coup-de-pouce-sur-bar-th-104-t2;checker-le-contenu-du-pdf-cdc",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Checker le contenu du PDF CDC",
+        "tags": [
+          {
+            "name": "@ProCee",
+            "line": 36
+          },
+          {
+            "name": "@focus",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Telecharger le PDF \"CDC\"",
+            "result": {
+              "status": "passed",
+              "duration": 3378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Ckecker le PDf \"CDCT2\",\"20 avenue de bretagne\",\"78000\",\"Versailles\",\"Oui\"",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3806000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 14786000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

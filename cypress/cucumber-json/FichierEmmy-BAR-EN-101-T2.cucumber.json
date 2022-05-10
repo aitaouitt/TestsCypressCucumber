@@ -1,0 +1,82 @@
+[
+  {
+    "description": "  Cette Feature permet de:\n    - Creer une OS BAR EN 101 Sans Coup de Pouce, la passer en DEPOSABLE, creer un Depot avec et checker le contenu du fichier Emmy",
+    "keyword": "Feature",
+    "name": "Checker le Contenu du Fichier Emmy",
+    "line": 1,
+    "id": "checker-le-contenu-du-fichier-emmy",
+    "tags": [],
+    "uri": "FichierEmmy-BAR-EN-101-T2.feature",
+    "elements": [
+      {
+        "id": "checker-le-contenu-du-fichier-emmy;selection-du-depôt-et-verification-du-fichier-emmy",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Selection du Depôt et Verification du Fichier Emmy",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 33
+          },
+          {
+            "name": "@Emmy",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Redirection info Chantier",
+            "result": {
+              "status": "passed",
+              "duration": 1690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Recuperation des infos chantier \"bar_en_101\"",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Selection du Depot et telechargement du fichier Emmy",
+            "result": {
+              "status": "passed",
+              "duration": 4390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Lecture du fichier Emmy \"BAR-EN-101\",\"T2\",\"33 avenue de bretagne\",\"78000\",\"Versailles\",\"PRECAIRE_ENERGETIQUE\",\"NON\",\"appartement\",\"110\",\"individuel\"",
+            "result": {
+              "status": "passed",
+              "duration": 19883000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

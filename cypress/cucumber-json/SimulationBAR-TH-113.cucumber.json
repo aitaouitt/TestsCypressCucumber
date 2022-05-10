@@ -1,0 +1,861 @@
+[
+  {
+    "description": "  BAR-TH-113 - Chaudière biomasse individuelle",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-113",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-113",
+    "tags": [],
+    "uri": "SimulationBAR-TH-113.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-113;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4402000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6313000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6415000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6441000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6456000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6400000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6391000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6476000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6534000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6530000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-v2-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI-v2 et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI-v2\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5855000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-v2-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI-v2 et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI-v2\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5860000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-oui-v2-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP OUI-v2 et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"OUI-v2\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5822000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-v2-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI-v2 et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI-v2\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5876000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-v2-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI-v2 et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI-v2\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5850000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-oui-v2-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP OUI-v2 et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"OUI-v2\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5834000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-v2-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI-v2 et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI-v2\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5766000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-v2-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI-v2 et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1648000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI-v2\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5865000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-oui-v2-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP OUI-v2 et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"OUI-v2\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5780000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5884000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1821000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5733000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-113;simulation-sur-l-os-bar-th-113-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Simulation sur l OS BAR-TH-113 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-113 - Chaudière biomasse individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5870000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

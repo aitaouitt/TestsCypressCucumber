@@ -1,0 +1,159 @@
+[
+  {
+    "description": "  BAR-TH-112 - Appareil indépendant de chauffage au bois",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-112",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-112",
+    "tags": [],
+    "uri": "SimulationBAR-TH-112.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-112;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4097000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-112;simulation-sur-l-os-bar-th-112-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-TH-112 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-112 - Appareil indépendant de chauffage au bois\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5854000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-112;simulation-sur-l-os-bar-th-112-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-TH-112 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1660000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-112 - Appareil indépendant de chauffage au bois\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5719000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-112;simulation-sur-l-os-bar-th-112-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-TH-112 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-112 - Appareil indépendant de chauffage au bois\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5807000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

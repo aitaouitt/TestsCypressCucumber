@@ -1,0 +1,276 @@
+[
+  {
+    "description": "  BAR-EN-102 - Isolation des murs",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-EN-102",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-en-102",
+    "tags": [],
+    "uri": "SimulationBAR-EN-102.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-en-102;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4629000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h1,-energie-electricite,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H1, Energie Electricite, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H1\"\"Electricite\"\"N/A\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6281000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h1,-energie-combustible,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H1, Energie Combustible, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1785000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H1\"\"Combustible\"\"N/A\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6051000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h2,-energie-electricite,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H2, Energie Electricite, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H2\"\"Electricite\"\"N/A\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6147000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h2,-energie-combustible,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H2, Energie Combustible, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1791000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H2\"\"Combustible\"\"N/A\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6166000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h3,-energie-electricite,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H3, Energie Electricite, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H3\"\"Electricite\"\"N/A\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6123000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-102;simulation-sur-l-os-bar-en-102-en-zone-h3,-energie-combustible,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-EN-102 en zone H3, Energie Combustible, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-102 - Isolation des murs\"\"H3\"\"Combustible\"\"N/A\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6110000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

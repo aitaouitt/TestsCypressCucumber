@@ -1,0 +1,66 @@
+{
+  "baseUrlBO": "https://preprod-backoffice.teksial-cee.fr/login",
+  "baseUrlMonExpertEclient": "https://preprod-espace-client.monexpert-renovation-energie.fr/login",
+  "baseUrlMonExpertHome": "https://preprod.monexpert-renovation-energie.fr/",
+  "baseUrlProCee": "https://preprod.pro-cee.fr/login",
+  "baseUrlMS": "https://dev-ms.pro-cee.fr",
+  "ignoreTestFiles": [
+    "CreationOS-Isolation.feature",
+    "BAR-EN-101-T5-Ko-TEMP-FactureDevisSigneAH.feature",
+    "BAR-TH-112-T5-Ko-DEF-Facture.feature",
+    "BAR-TH-106-T5-AdresseComplete.feature",
+    "BAR-TH-106-T5-Ko-Temp-Cadastre.feature",
+    "BAR-TH-106-T5-Ko-Temp-Impots.feature",
+    "BAR-TH-106-T5-LieuDit.feature",
+    "Qualité&Depot-T5.feature",
+    "GenerationCDC&PA-T5.feature",
+    "BAR-EN-101-T2-Ko-DEF-Facture.feature",
+    "BAR-EN-102-T2-Ko-TEMP-AH.feature",
+    "BAR-EN-103-T2.feature",
+    "GenerationCDC-CdP-Non-T2.feature",
+    "GenerationCDC-CdP-Oui-T2.feature",
+    "PageHome.feature",
+    "PageLogin.feature",
+    "RechercheOS.feature",
+    "RecherchePrecarity.feature",
+    "CheckerLeContenuDesPDF-CDC&PA.feature",
+    "FichierEmmy-BAR-EN-101-T2.feature",
+    "FichierEmmy-BAR-EN-101-T5.feature",
+    "FichierEmmy-BAR-EN-102-T2.feature",
+    "FichierEmmy-BAR-EN-102-T5.feature",
+    "FichierEmmy-BAR-EN-103-T2.feature",
+    "FichierEmmy-BAR-TH-104-T5.feature",
+    "FichierEmmy-BAR-TH-106-T5.feature",
+    "FichierEmmy-BAR-TH-112-T5.feature"
+  ],
+  "defaultCommandTimeout": 20000,
+  "responseTimeout": 20000,
+  "taskTimeout": 20000,
+  "testFiles": "**/*.feature",
+  "viewportHeight": 1200,
+  "viewportWidth": 1800,
+  "video": false,
+  "env": {
+    "browserPermissions": {
+      "notifications": "allow",
+      "geolocation": "allow",
+      "camera": "block",
+      "microphone": "block",
+      "images": "allow",
+      "javascript": "allow",
+      "popups": "allow",
+      "plugins": "allow",
+      "cookies": "allow"
+    },
+    "updateSnapshots": false,
+    "TAGS": "@monExpert and @ProCee and @Visuel and @MicroService and @Prod and @Emmy and @focus"
+  },
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "cypress-file-upload"
+    ]
+  },
+  "projectId": "niaj92",
+  "chromeWebSecurity": false
+}

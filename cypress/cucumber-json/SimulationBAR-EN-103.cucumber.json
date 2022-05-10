@@ -1,0 +1,159 @@
+[
+  {
+    "description": "  BAR-EN-103 - Isolation d un plancher",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-EN-103",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-en-103",
+    "tags": [],
+    "uri": "SimulationBAR-EN-103.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-en-103;connexion-à-procee",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion à ProCee",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me connecte à ProCee",
+            "result": {
+              "status": "passed",
+              "duration": 5102000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-103;simulation-sur-l-os-bar-en-103-en-zone-h1,-energie-electricite,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-EN-103 en zone H1, Energie Electricite, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection vers Simulateur ProCee",
+            "result": {
+              "status": "passed",
+              "duration": 2373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-103 - Isolation d\\'un plancher\"\"H1\"\"Electricite\"\"NON\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6793000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-103;simulation-sur-l-os-bar-en-103-en-zone-h2,-energie-electricite,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-EN-103 en zone H2, Energie Electricite, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection vers Simulateur ProCee",
+            "result": {
+              "status": "passed",
+              "duration": 2274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-103 - Isolation d\\'un plancher\"\"H2\"\"Electricite\"\"NON\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6469000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-103;simulation-sur-l-os-bar-en-103-en-zone-h3,-energie-combustible,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-EN-103 en zone H3, Energie Combustible, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection vers Simulateur ProCee",
+            "result": {
+              "status": "passed",
+              "duration": 2058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-103 - Isolation d\\'un plancher\"\"H3\"\"Combustible\"\"NON\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6369000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

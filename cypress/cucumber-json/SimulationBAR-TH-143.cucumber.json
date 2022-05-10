@@ -1,0 +1,393 @@
+[
+  {
+    "description": "  BAR-TH-143 - Système solaire combiné (France métropolitaine)",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-143",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-143",
+    "tags": [],
+    "uri": "SimulationBAR-TH-143.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-143;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4201000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h1,-energie-n/a,-cdp-oui-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H1, Energie N/A, CDP OUI et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1651000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H1\"\"N/A\"\"OUI\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6197000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h2,-energie-n/a,-cdp-oui-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H2, Energie N/A, CDP OUI et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H2\"\"N/A\"\"OUI\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6496000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h3,-energie-n/a,-cdp-oui-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H3, Energie N/A, CDP OUI et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H3\"\"N/A\"\"OUI\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6347000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h1,-energie-n/a,-cdp-oui-v2-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H1, Energie N/A, CDP OUI-v2 et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H1\"\"N/A\"\"OUI-v2\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5798000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h2,-energie-n/a,-cdp-oui-v2-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H2, Energie N/A, CDP OUI-v2 et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H2\"\"N/A\"\"OUI-v2\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5791000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h3,-energie-n/a,-cdp-oui-v2-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H3, Energie N/A, CDP OUI-v2 et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H3\"\"N/A\"\"OUI-v2\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5830000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5843000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5909000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-143;simulation-sur-l-os-bar-th-143-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Simulation sur l OS BAR-TH-143 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-143 - Système solaire combiné (France métropolitaine)\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5816000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

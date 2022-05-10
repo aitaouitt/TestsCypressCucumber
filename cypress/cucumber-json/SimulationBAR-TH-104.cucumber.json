@@ -1,0 +1,121 @@
+[
+  {
+    "description": "  BAR-TH-104",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-104",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-104",
+    "tags": [],
+    "uri": "SimulationBAR-TH-104.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-104;checker-le-montant-du-cumac-dans-bo-pour-l-os-bar_th_104_aveccdpmodeste-crée-dans-monexpert",
+        "keyword": "Scenario",
+        "line": 196,
+        "name": "Checker le montant du Cumac dans BO pour l OS BAR_TH_104_AvecCdPModeste crée dans MonExpert",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 188
+          },
+          {
+            "name": "@Simulateur",
+            "line": 188
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 190,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 191,
+            "name": "Redirection info Chantier",
+            "result": {
+              "status": "passed",
+              "duration": 1644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 192,
+            "name": "Checker le Coupe de pouce à \"OUI\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 193,
+            "name": "Checker le montant du Cumac estimé pour l OS \"BAR_TH_104_AvecCdPModeste\"\"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-104;cloturer-l-os-précédemment",
+        "keyword": "Scenario",
+        "line": 198,
+        "name": "Cloturer l OS précédemment",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 197
+          },
+          {
+            "name": "@focus",
+            "line": 197
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 199,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 200,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 201,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 14779000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

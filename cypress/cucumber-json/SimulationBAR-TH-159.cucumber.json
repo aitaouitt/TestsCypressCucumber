@@ -1,0 +1,1680 @@
+[
+  {
+    "description": "  BAR-TH-159 - Pompe à chaleur hybride individuelle",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-159",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-159",
+    "tags": [],
+    "uri": "SimulationBAR-TH-159.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-159;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4400000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-oui-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP OUI et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"OUI\"\"Précaire énergétique\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 7085000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-oui-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP OUI et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1641000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"OUI\"\"Modeste\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 7310000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-oui-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP OUI et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"OUI\"\"Standard\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 7370000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-oui-v2-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP OUI-v2 et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"OUI-v2\"\"Précaire énergétique\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6532000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-oui-v2-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP OUI-v2 et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"OUI-v2\"\"Modeste\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6613000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-oui-v2-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP OUI-v2 et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"OUI-v2\"\"Standard\"\"Appartement\"\"1\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6593000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"111\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6580000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1636000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"114\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6559000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"119\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6582000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"120\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6567000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"125\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6430000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"129\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6448000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1734000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"130\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6552000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"135\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6527000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 2398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"139\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6586000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"140\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6459000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"141\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6634000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1654000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"149\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6543000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"150\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6536000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1744000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"155\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6486000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"159\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6611000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Appartement\"\"160\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6474000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Appartement\"\"170\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6457000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Appartement\"\"175\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6459000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1733000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"111\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6574000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"114\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6513000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"119\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6463000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"120\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6494000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"125\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6532000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"129\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6535000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"130\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6563000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"135\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6550000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1756000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"139\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6470000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"140\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6510000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"141\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6420000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"149\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6546000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"150\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6602000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"155\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6579000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"159\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6526000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h1,-energie-n/a,-cdp-non-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H1, Energie N/A, CDP NON et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1666000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H1\"\"N/A\"\"NON\"\"Précaire énergétique\"\"Maison\"\"160\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6656000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h2,-energie-n/a,-cdp-non-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H2, Energie N/A, CDP NON et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H2\"\"N/A\"\"NON\"\"Modeste\"\"Maison\"\"170\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6573000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-159;simulation-sur-l-os-bar-th-159-en-zone-h3,-energie-n/a,-cdp-non-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Simulation sur l OS BAR-TH-159 en zone H3, Energie N/A, CDP NON et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-159 - Pompe à chaleur hybride individuelle\"\"H3\"\"N/A\"\"NON\"\"Standard\"\"Maison\"\"175\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6519000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation et suppression de Precarité",
+    "line": 1,
+    "id": "creation-et-suppression-de-precarité",
+    "tags": [],
+    "uri": "Creation&SuppPrecarity .feature",
+    "elements": [
+      {
+        "id": "creation-et-suppression-de-precarité;creation-de-la-precarité,-recherche,-update-et-recherche-puis-suppression-de-precarite",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Creation de la Precarité, Recherche, Update et Recherche puis Suppression de Precarite",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Update Precarite \"1\",\"idf\",\"23000\",\"39000\",\"2000-01-01\",\"2018-01-01\"",
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Recherche Precarity \"1\",\"78000\",\"2017-01-01\",\"\",\"idf\",\"23000\",\"39000\"",
+            "result": {
+              "status": "failed",
+              "duration": 247000000,
+              "error_message": "AssertionError: expected '20593' to include '23000'\n    at Context.eval (http://localhost:38155/__cypress/tests?p=cypress/integration/MicroService/Precarity/Creation%2526SuppPrecarity%2520.feature:1844:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Supprimer la precarite",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "description": "  Passage du BAR EN 101 T5 avec KO Temporaire sur la Facture, le Devis Signé et l Attestation",
+    "keyword": "Feature",
+    "name": "BAR-EN-101-T5-Ko-TEMP-FactureDevisSigneAH",
+    "line": 1,
+    "id": "bar-en-101-t5-ko-temp-facturedevissigneah",
+    "tags": [],
+    "uri": "BAR-EN-101-T5-Ko-TEMP-FactureDevisSigneAH.feature",
+    "elements": [
+      {
+        "id": "bar-en-101-t5-ko-temp-facturedevissigneah;ajout-et-validation-du-controle-de-la-facture,-l\"attestation-et-le-cadastre-puis-cloture-de-l-os",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Ajout et validation du controle de la facture, l\"Attestation et le Cadastre puis cloture de l OS",
+        "tags": [
+          {
+            "name": "@monExpert",
+            "line": 77
+          },
+          {
+            "name": "@focus",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "Valider le controle de la facture sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 14371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "Valider le controle de l attestation sur l honneur sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "Ajouter et valider le controle du Cadastre avec l envoie de mail dans BO et sans cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 16998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 86,
+            "name": "Mettre les impots en KO TEMP sans envoi de mail",
+            "result": {
+              "status": "passed",
+              "duration": 14234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "Checker le status \"CORRECTIONS_ATTENDU\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "Valider le controle de l impots \"PRECAIRE_ENERGETIQUE\" sans l envoie de mail",
+            "result": {
+              "status": "passed",
+              "duration": 11917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 89,
+            "name": "Checker le status \"VALIDE_CC\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 90,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 15739000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

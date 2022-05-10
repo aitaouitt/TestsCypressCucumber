@@ -1,0 +1,112 @@
+[
+  {
+    "description": "  Cette suite de tests crée un BAR EN 103 T2\n  Charge le Devis Signé, la Facture, l AH et le cadastre dans ProCee\n  Valide en KO TEMP le Cadastre, Impots et la Facture dans BO\n  Valide en OK l Attestation sur l Honneur, le Cadre de Contribution et le devis dans BO\n  Charge la Facture corrigée dans ProCee\n  Charge le document complémentaire Impots et Cadastre dans ProCee\n  Valide le cadastre + Impots + Facture dans BO",
+    "keyword": "Feature",
+    "name": "BAR-EN-103-T2",
+    "line": 1,
+    "id": "bar-en-103-t2",
+    "tags": [],
+    "uri": "BAR-EN-103-T2.feature",
+    "elements": [
+      {
+        "id": "bar-en-103-t2;validation-cadastre-+-impôts-+-facture-dans-bo",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "Validation Cadastre + impôts + facture dans BO",
+        "tags": [
+          {
+            "name": "@ProCee",
+            "line": 60
+          },
+          {
+            "name": "@focus",
+            "line": 60
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 62,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "Valider le controle de l impots \"PRECAIRE_ENERGETIQUE\" sans l envoie de mail",
+            "result": {
+              "status": "passed",
+              "duration": 10684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "Valider le controle de la facture sans l envoie de mail dans BO sans date de visite",
+            "result": {
+              "status": "passed",
+              "duration": 15022000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "Valider le controle du Cadastre dans BO en OK sans l envoie de mail",
+            "result": {
+              "status": "passed",
+              "duration": 6922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "Checker le status \"VALIDE_CC\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 14630000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

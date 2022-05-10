@@ -1,0 +1,276 @@
+[
+  {
+    "description": "  BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-EN-104",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-en-104",
+    "tags": [],
+    "uri": "SimulationBAR-EN-104.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-en-104;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4177000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h1,-energie-electricite,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H1, Energie Electricite, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H1\"\"Electricite\"\"N/A\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6101000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h2,-energie-electricite,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H2, Energie Electricite, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H2\"\"Electricite\"\"N/A\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6071000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h3,-energie-electricite,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H3, Energie Electricite, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H3\"\"Electricite\"\"N/A\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 6122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h1,-energie-combustible,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H1, Energie Combustible, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H1\"\"Combustible\"\"N/A\"\"Précaire énergétique\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5967000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h2,-energie-combustible,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H2, Energie Combustible, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1579000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H2\"\"Combustible\"\"N/A\"\"Modeste\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5948000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-en-104;simulation-sur-l-os-bar-en-104-en-zone-h3,-energie-combustible,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-EN-104 en zone H3, Energie Combustible, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-EN-104 - Fenêtre ou porte-fenêtre complète avec vitrage isolant\"\"H3\"\"Combustible\"\"N/A\"\"Standard\"\"\"\"\"\"\"\"\"\"\"",
+            "result": {
+              "status": "passed",
+              "duration": 5963000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "description": "  Cette suite de tests crée un BAR EN 102 T2, charge tout les documents,\n  Valide le controle du cadastre en N/A",
+    "keyword": "Feature",
+    "name": "BAR-EN-102-T2 KO TEMP sur AH et N/A sur Cadastre",
+    "line": 1,
+    "id": "bar-en-102-t2-ko-temp-sur-ah-et-n/a-sur-cadastre",
+    "tags": [],
+    "uri": "BAR-EN-102-T2-Ko-TEMP-AH.feature",
+    "elements": [
+      {
+        "id": "bar-en-102-t2-ko-temp-sur-ah-et-n/a-sur-cadastre;valadation-du-controle-cadastre-n/a,-impots,-devis-signé-ko-temp,-la-facture-et-l\"ah-en-ko-temp",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Valadation du controle Cadastre N/A, Impots, Devis Signé KO TEMP, la facture et l\"AH en KO TEMP",
+        "tags": [
+          {
+            "name": "@ProCee",
+            "line": 35
+          },
+          {
+            "name": "@focus",
+            "line": 35
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Valider le controle du Cadastre en NA sans document sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 7767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1047000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Valider le controle de l impots \"STANDARD\" sans l envoie de mail",
+            "result": {
+              "status": "passed",
+              "duration": 8626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Valider le controle de Devis Signé en KO TEMP pour motif \"Absence Classe\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 8908000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Valider le controle de la facture sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 12724000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Valider le controle de l attestation en KO TEMP pour motif \"Ratures présentes\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "bar-en-102-t2-ko-temp-sur-ah-et-n/a-sur-cadastre;validation-du-devis-signé,-la-facture,-ah-en-ko-temp-puis-ah-en-ok-dans-bo",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Validation du Devis Signé, la facture, AH en KO TEMP puis AH EN OK dans BO",
+        "tags": [
+          {
+            "name": "@ProCee",
+            "line": 49
+          },
+          {
+            "name": "@focus",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Valider le controle de devis \"T2\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 9545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Valider le controle de la facture sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 11620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Valider le controle de l attestation en KO TEMP pour motif \"Ratures présentes\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "Valider le controle de l attestation sur l honneur avec l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1065000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3623000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 16603000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

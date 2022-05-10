@@ -1,0 +1,41 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Checker les contenus des documents CDC et PA sur les OS crées en date N-1",
+    "line": 1,
+    "id": "checker-les-contenus-des-documents-cdc-et-pa-sur-les-os-crées-en-date-n-1",
+    "tags": [],
+    "uri": "billet.feature",
+    "elements": [
+      {
+        "id": "checker-les-contenus-des-documents-cdc-et-pa-sur-les-os-crées-en-date-n-1;recuperation-des-ids-os-crées-en-date-n-1-et-checker-les-pdf-de-cdc-et-pa",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Recuperation des IDs OS crées en date n-1 et Checker les PDF de CDC et PA",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 3
+          },
+          {
+            "name": "@Prod",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "billet",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

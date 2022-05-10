@@ -1,0 +1,276 @@
+[
+  {
+    "description": "  BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable",
+    "keyword": "Feature",
+    "name": "Simulation sur l OS BAR-TH-127",
+    "line": 1,
+    "id": "simulation-sur-l-os-bar-th-127",
+    "tags": [],
+    "uri": "SimulationBAR-TH-127.feature",
+    "elements": [
+      {
+        "id": "simulation-sur-l-os-bar-th-127;connexion-au-bo",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Connexion au BO",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4128000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h1,-energie-n/a,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H1, Energie N/A, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H1\"\"N/A\"\"N/A\"\"Précaire énergétique\"\"Appartement\"\"\"\"\"\"Individuelle\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6597000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h2,-energie-n/a,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H2, Energie N/A, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H2\"\"N/A\"\"N/A\"\"Modeste\"\"Appartement\"\"\"\"\"\"Individuelle\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6612000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h3,-energie-n/a,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H3, Energie N/A, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H3\"\"N/A\"\"N/A\"\"Standard\"\"Appartement\"\"\"\"\"\"Individuelle\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6753000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h1,-energie-n/a,-cdp-n/a-et-revenus-précaire-énergétique",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H1, Energie N/A, CDP N/A et Revenus Précaire énergétique",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H1\"\"N/A\"\"N/A\"\"Précaire énergétique\"\"Maison\"\"\"\"\"\"Collective\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6552000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h2,-energie-n/a,-cdp-n/a-et-revenus-modeste",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H2, Energie N/A, CDP N/A et Revenus Modeste",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H2\"\"N/A\"\"N/A\"\"Modeste\"\"Maison\"\"\"\"\"\"Collective\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6643000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "simulation-sur-l-os-bar-th-127;simulation-sur-l-os-bar-th-127-en-zone-h3,-energie-n/a,-cdp-n/a-et-revenus-standard",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Simulation sur l OS BAR-TH-127 en zone H3, Energie N/A, CDP N/A et Revenus Standard",
+        "tags": [
+          {
+            "name": "@Simulateur",
+            "line": 9
+          },
+          {
+            "name": "@focus",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Redirection Simulateur",
+            "result": {
+              "status": "passed",
+              "duration": 1581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Simulation sur l OS \"BAR-TH-127 - Ventilation Mécanique Contrôlée simple flux hygroréglable\"\"H3\"\"N/A\"\"N/A\"\"Standard\"\"Maison\"\"\"\"\"\"Collective\"\"B\"",
+            "result": {
+              "status": "passed",
+              "duration": 6648000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

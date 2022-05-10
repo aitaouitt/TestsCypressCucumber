@@ -1,0 +1,83 @@
+[
+  {
+    "description": "  Cette Feature permet de:\n    - Creer une OS BAR EN 103 Sans Coup de Pouce, la passer en DEPOSABLE, creer un Depot avec et checker le contenu du fichier Emmy",
+    "keyword": "Feature",
+    "name": "Checker le Contenu du Fichier Emmy",
+    "line": 1,
+    "id": "checker-le-contenu-du-fichier-emmy",
+    "tags": [],
+    "uri": "FichierEmmy-BAR-EN-103-T2.feature",
+    "elements": [
+      {
+        "id": "checker-le-contenu-du-fichier-emmy;selection-du-depôt-et-verification-du-fichier-emmy",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Selection du Depôt et Verification du Fichier Emmy",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 32
+          },
+          {
+            "name": "@Emmy",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Redirection info Chantier",
+            "result": {
+              "status": "passed",
+              "duration": 1672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Recuperation des infos chantier \"bar_en_103\"",
+            "result": {
+              "status": "passed",
+              "duration": 90000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Selection du Depot et telechargement du fichier Emmy",
+            "result": {
+              "status": "passed",
+              "duration": 4416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Lecture du fichier Emmy \"BAR-EN-103\",\"T2\",\"34 avenue de bretagne\",\"78000\",\"Versailles\",\"PRECAIRE_ENERGETIQUE\",\"NON\",\"appartement\",\"110\",\"individuel\"",
+            "result": {
+              "status": "failed",
+              "duration": 2355000000,
+              "error_message": "AssertionError: expected null to equal 50\n    at Context.eval (https://qatest-backoffice.teksial-cee.fr/__cypress/tests?p=cypress/integration/Emmy/FichierEmmy-BAR-EN-103-T2.feature:1047:51)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation et suppression de Precarité",
+    "line": 1,
+    "id": "creation-et-suppression-de-precarité",
+    "tags": [],
+    "uri": "Creation&Recherche&Update&SuppPrecarity .feature",
+    "elements": [
+      {
+        "id": "creation-et-suppression-de-precarité;creation-de-la-precarité,-recherche,-update-et-recherche-puis-suppression-de-precarite",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Creation de la Precarité, Recherche, Update et Recherche puis Suppression de Precarite",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Creation de Precarite dans la table Temp \"3\",\"22500\",\"38000\",\"2005-01-01\",\"2021-01-01\",\"idf\"",
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Ajout de la precarite dans la table Def \"3\",\"22500\",\"38000\",\"2005-01-01\",\"2021-01-01\",\"idf\"",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Recherche Precarity \"3\",\"78000\",\"2019-01-01\",\"idf\",\"22500\",\"38000\"",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update Precarite \"3\",\"idf\",\"23000\",\"39000\",\"2005-01-01\",\"2021-01-01\"",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Recherche Precarity \"3\",\"78000\",\"2019-01-01\",\"idf\",\"23000\",\"39000\"",
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Supprimer la precarite",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creation-et-suppression-de-precarité;creation-de-la-precarité,-recherche,-update-et-recherche-puis-suppression-de-precarite",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Creation de la Precarité, Recherche, Update et Recherche puis Suppression de Precarite",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Creation de Precarite dans la table Temp \"1\",\"28000\",\"41000\",\"2022-01-01\",\"null\",\"other\"",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Ajout de la precarite dans la table Def \"1\",\"28000\",\"41000\",\"2022-01-01\",\"null\",\"other\"",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Recherche Precarity \"1\",\"54000\",\"2029-11-01\",\"other\",\"28000\",\"41000\"",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update Precarite \"1\",\"other\",\"27000\",\"39000\",\"2022-01-01\",\"null\"",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Recherche Precarity \"1\",\"54000\",\"2029-11-01\",\"other\",\"27000\",\"39000\"",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Supprimer la precarite",
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

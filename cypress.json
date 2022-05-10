@@ -1,0 +1,40 @@
+{
+  "baseUrlBO": "https://qatest-backoffice.teksial-cee.fr/login",
+  "baseUrlMonExpertEclient": "https://qatest-espace-client.monexpert-renovation-energie.fr/login",
+  "baseUrlMonExpertHome": "https://qatest.monexpert-renovation-energie.fr/",
+  "baseUrlProCee": "https://qatest.pro-cee.fr/login",
+  "baseUrlMS": "https://api.dev.teksial-stage.io",
+  "vers":"v1",
+  "api_key":"ZAYTYKDysVa5KyeJDhPk647YifNA7pov5myb9vMr",
+  "ignoreTestFiles": [""],
+  "defaultCommandTimeout": 40000,
+  "responseTimeout": 40000,
+  "taskTimeout": 40000,
+  "testFiles": "**/*.feature",
+  "viewportHeight": 1200,
+  "viewportWidth": 1800,
+  "video": false,
+  "env": {
+    "browserPermissions": {
+      "notifications": "allow",
+      "geolocation": "allow",
+      "camera": "block",
+      "microphone": "block",
+      "images": "allow",
+      "javascript": "allow",
+      "popups": "allow",
+      "plugins": "allow",
+      "cookies": "allow"
+    },
+    "updateSnapshots": false,
+    "TAGS": "@focus and not @ignore"
+  },
+  "compilerOptions": {
+    "types": [
+      "cypress",
+      "cypress-file-upload"
+    ]
+  },
+  "projectId": "niaj92",
+  "chromeWebSecurity": false
+}

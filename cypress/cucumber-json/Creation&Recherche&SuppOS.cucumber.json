@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation, Recherche, Update et Suppression d OS",
+    "line": 1,
+    "id": "creation,-recherche,-update-et-suppression-d-os",
+    "tags": [],
+    "uri": "Creation&Recherche&SuppOS.feature",
+    "elements": [
+      {
+        "id": "creation,-recherche,-update-et-suppression-d-os;creation,-recherche,-update-et-suppression-d-os",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Creation, Recherche, Update et Suppression d OS",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Creation de l OS \"BAR_EN_101\",\"602cc0ed-743a-4b39-9b8e-827a69d3c481\",\"60081f9ba29c6363eb691c68\",\"1\",\"120\",\"combles_perdus\",\"4 rue Lucien sampaix\",\"78000\",\"Versailles\",\"REVENUS_GRAND_PRECAIRE\",\"1\"",
+            "result": {
+              "status": "failed",
+              "duration": 679000000,
+              "error_message": "AssertionError\n    + expected - actual\n\n    -200\n    +201\n\n    at Context.eval (http://localhost:40557/__cypress/tests?p=cypress/integration/MicroService/OS/Creation%2526Recherche%2526SuppOS.feature:1874:29)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

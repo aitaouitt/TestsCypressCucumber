@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation et recherche d OS",
+    "line": 1,
+    "id": "creation-et-recherche-d-os",
+    "tags": [],
+    "uri": "Creation&RechercheOS.feature",
+    "elements": [
+      {
+        "id": "creation-et-recherche-d-os;creation-et-recherche-d-os",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Creation et recherche d OS",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 5
+          },
+          {
+            "name": "@focus",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Supprimer le Dernier OS crée",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Creation de l OS \"BAR_EN_101\",\"602cc0ed-743a-4b39-9b8e-827a69d3c481\",\"60081f9ba29c6363eb691c68\",\"1\",\"120\",\"combles_perdus\",\"4 rue Lucien sampaix\",\"78000\",\"Versailles\",\"REVENUS_GRAND_PRECAIRE\",\"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Recherche de l OS \"BAR_EN_101\",\"602cc0ed-743a-4b39-9b8e-827a69d3c481\",\"60081f9ba29c6363eb691c68\",\"1\",\"120\",\"combles_perdus\",\"4 rue Lucien sampaix\",\"78000\",\"Versailles\",\"REVENUS_GRAND_PRECAIRE\",\"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

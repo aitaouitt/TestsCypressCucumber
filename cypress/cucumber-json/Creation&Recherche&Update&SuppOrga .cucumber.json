@@ -1,0 +1,91 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creation, Recherche, Update et Suppression d'une Organisation",
+    "line": 1,
+    "id": "creation,-recherche,-update-et-suppression-d'une-organisation",
+    "tags": [],
+    "uri": "Creation&Recherche&Update&SuppOrga .feature",
+    "elements": [
+      {
+        "id": "creation,-recherche,-update-et-suppression-d'une-organisation;creation,-recherche,-update-et-suppression-d'une-organisation",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Creation, Recherche, Update et Suppression d'une Organisation",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Creation d Organisation \"415f3c17e8848e09ff45b44b5c0db861\",\"12 avenue de Paris\",\"92025\",\"Colombes\",\"4\",\"4.5\",\"5\",\"BAR_TH_106\"",
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Ajout de l Organisation dans la table Def \"415f3c17e8848e09ff45b44b5c0db861\",\"12 avenue de Paris\",\"92025\",\"Colombes\",\"4\",\"4.5\",\"5\",\"BAR_TH_106\"",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Recherche Organisation \"415f3c17e8848e09ff45b44b5c0db861\",\"12 avenue de Paris\",\"92025\",\"Colombes\",\"4\",\"4.5\",\"5\",\"BAR_TH_106\"",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Update Organisation \"415f3c17e8848e09ff45b44b5c0db861\",\"12 avenue de Paris\",\"92025\",\"Colombes\",\"6\",\"5.6\",\"5\",\"BAR_EN_101\"",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Recherche Organisation \"415f3c17e8848e09ff45b44b5c0db861\",\"12 avenue de Paris\",\"92025\",\"Colombes\",\"6\",\"5.6\",\"5\",\"BAR_EN_101\"",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Suppression Organisation",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "description": "  Cette suite de tests crée un BAR EN 101 T2, charge tout les documents, supprime le\n  devis signé, valide de cadre de contribution puis valide le cadastre en OK et la\n  Facture en KO definitif.",
+    "keyword": "Feature",
+    "name": "BAR-EN-101-T2-Ko-DEF-Facture",
+    "line": 1,
+    "id": "bar-en-101-t2-ko-def-facture",
+    "tags": [],
+    "uri": "BAR-EN-101-T2-Ko-DEF-Facture.feature",
+    "elements": [
+      {
+        "id": "bar-en-101-t2-ko-def-facture;verification-du-cadre-de-contribution-dans-bo",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Verification du Cadre de Contribution dans BO",
+        "tags": [
+          {
+            "name": "@ProCee",
+            "line": 51
+          },
+          {
+            "name": "@focus",
+            "line": 51
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Valider le controle du Cadastre dans BO en OK sans l envoie de mail et sans cloture OS",
+            "result": {
+              "status": "passed",
+              "duration": 12999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Valider le controle de la facture en KO Definitif pour motif \"date facture<devis signé\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 13384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

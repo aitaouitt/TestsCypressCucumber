@@ -1,0 +1,201 @@
+[
+  {
+    "description": "  Cette Feature permet de:\n    - Creer une OS BAR TH 106 Sans Coup de Pouce, la passer en DEPOSABLE, creer un Depot avec et checker le contenu du fichier Emmy",
+    "keyword": "Feature",
+    "name": "Checker le Contenu du Fichier Emmy",
+    "line": 1,
+    "id": "checker-le-contenu-du-fichier-emmy",
+    "tags": [],
+    "uri": "FichierEmmy-BAR-TH-106-T5.feature",
+    "elements": [
+      {
+        "id": "checker-le-contenu-du-fichier-emmy;checker-le-chargement-de-l-attestation-sur-l-honneur-et-valider-les-controles-dans-bo",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Checker le chargement de l attestation sur l honneur et valider les controles dans BO",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 38
+          },
+          {
+            "name": "@Emmy",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "Checker le status \"A_TRAITER\" de l OS dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1059000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Checker le chargement de l attestation sur l honneur = TO_CHECK dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 1668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Valider le controle de devis \"T5\" sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 10959000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Valider le controle de la facture sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 14804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Valider le controle de l attestation sur l honneur sans l envoie de mail dans BO",
+            "result": {
+              "status": "passed",
+              "duration": 11483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Valider le controle du Cadastre en NA sans document avec l envoie de mail dans B0",
+            "result": {
+              "status": "passed",
+              "duration": 9644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "Valider le dossier en Qualite OK et passer en \"DEPOSABLE\",\"T5\"",
+            "result": {
+              "status": "passed",
+              "duration": 13008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Creer un depot avec le dossier et passer en DEPOSE \"T5\"",
+            "result": {
+              "status": "passed",
+              "duration": 6782000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "checker-le-contenu-du-fichier-emmy;selection-du-depôt-et-verification-du-fichier-emmy",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Selection du Depôt et Verification du Fichier Emmy",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 50
+          },
+          {
+            "name": "@Emmy",
+            "line": 50
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Redirection info Chantier",
+            "result": {
+              "status": "passed",
+              "duration": 1516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Recuperation des infos chantier \"bar_th_106\"",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Selection du Depot et telechargement du fichier Emmy",
+            "result": {
+              "status": "passed",
+              "duration": 4146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "Lecture du fichier Emmy \"BAR-TH-106\",\"T5\",\"29 avenue de bretagne\",\"78000\",\"Versailles\",\"PRECAIRE_ENERGETIQUE\",\"NON\",\"appartement\",\"110\",\"individuel\"",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: expected 0 to equal 1\n    at Context.eval (https://preprod-backoffice.teksial-cee.fr/__cypress/tests?p=cypress/integration/Emmy/FichierEmmy-BAR-TH-106-T5.feature:956:51)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "description": "  Cette suite de tests permets de creer un OS BAR TH 104 T5,\n  telecharger le PDF du CDC et la PA puis verifier le contenu text dans chaque\n  PDF.\n  Elle verifie l existance de:\n    La date du jour (date proposition)\n    L adresse des travaux declarer lors de la creation de l OS\n    le nom et prenom declarés sur l OS\n    le montant de la prime\n    Les texts explicatifs",
+    "keyword": "Feature",
+    "name": "Generation CDC et PA sur BAR TH 104 T5",
+    "line": 1,
+    "id": "generation-cdc-et-pa-sur-bar-th-104-t5",
+    "tags": [],
+    "uri": "GenerationCDC&PA-T5.feature",
+    "elements": [
+      {
+        "id": "generation-cdc-et-pa-sur-bar-th-104-t5;checker-les-contenus-des-pdf-cdc-et-pa",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Checker les contenus des PDF CDC et PA",
+        "tags": [
+          {
+            "name": "@monExpert",
+            "line": 36
+          },
+          {
+            "name": "@focus",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "Je me suis connecte au BO",
+            "result": {
+              "status": "passed",
+              "duration": 4371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Checker le Coupe de pouce à \"Non\"",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Telecharger le PDF \"CDC\"",
+            "result": {
+              "status": "passed",
+              "duration": 4048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Telecharger le PDF \"PA\"",
+            "result": {
+              "status": "passed",
+              "duration": 3404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Ckecker le PDf \"CDCT5\",\"4 avenue de bretagne\",\"78000\",\"Versailles\",\"Non\"",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "Ckecker le PDf \"PAT5\",\"4 avenue de bretagne\",\"78000\",\"Versailles\",\"Non\"",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Redirection info beneficiaire",
+            "result": {
+              "status": "passed",
+              "duration": 3741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Cloturer l OS",
+            "result": {
+              "status": "passed",
+              "duration": 14869000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

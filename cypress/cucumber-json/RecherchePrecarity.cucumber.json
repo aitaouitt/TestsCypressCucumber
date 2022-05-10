@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Recherche Precarity",
+    "line": 1,
+    "id": "recherche-precarity",
+    "tags": [],
+    "uri": "RecherchePrecarity.feature",
+    "elements": [
+      {
+        "id": "recherche-precarity;recherche-precarity:-other-6-01012018-01042019",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Recherche Precarity: other-6-01012018-01042019",
+        "tags": [
+          {
+            "name": "@MicroService",
+            "line": 4
+          },
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Recherche Precarity \"6\",\"13000\",\"2019-01-01\",\"other-6-01012018-01042019\",\"\",\"\",\"\"",
+            "result": {
+              "status": "failed",
+              "duration": 483000000,
+              "error_message": "CypressError: `cy.request()` failed on:\n\nhttps://api.dev.teksial-stage.io/precarity/undefined/search\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://api.dev.teksial-stage.io/precarity/undefined/search\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"content-type\": \"application/json\",\n  \"x-api-key\": \"ZAYTYKDysVa5KyeJDhPk647YifNA7pov5myb9vMr\",\n  \"user-agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.6.0 Chrome/94.0.4606.81 Electron/15.5.1 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\",\n  \"content-length\": 54\n}\nBody: {\"family\":6,\"postal_code\":\"13000\",\"date\":\"2019-01-01\"}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 404 - Not Found\nHeaders: {\n  \"date\": \"Thu, 05 May 2022 08:12:45 GMT\",\n  \"content-type\": \"text/html\",\n  \"content-length\": \"548\",\n  \"connection\": \"keep-alive\",\n  \"x-amzn-requestid\": \"b2f9f49d-26c9-4ccd-a0b5-d2f89630a7eb\",\n  \"x-amzn-remapped-content-length\": \"548\",\n  \"x-amzn-remapped-connection\": \"keep-alive\",\n  \"x-amz-apigw-id\": \"RpIHrHQBjoEFSqA=\",\n  \"x-amzn-remapped-date\": \"Thu, 05 May 2022 08:12:45 GMT\"\n}\nBody: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n\nhttps://on.cypress.io/request\n    at http://localhost:37567/__cypress/runner/cypress_runner.js:164670:80\n    at tryCatcher (http://localhost:37567/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37567/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:37567/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:37567/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:37567/__cypress/runner/cypress_runner.js:11139:18)\n    at _drainQueueStep (http://localhost:37567/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:37567/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37567/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:37567/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:37567/__cypress/tests?p=cypress/integration/MicroService/Precarity/RecherchePrecarity.feature:1975:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:37567/__cypress/tests?p=cypress/integration/MicroService/Precarity/RecherchePrecarity.feature:14031:29)\n    at Context.eval (http://localhost:37567/__cypress/tests?p=cypress/integration/MicroService/Precarity/RecherchePrecarity.feature:13352:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
