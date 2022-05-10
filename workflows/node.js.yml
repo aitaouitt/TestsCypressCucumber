@@ -1,0 +1,14 @@
+
+name: Cypress CI
+on: [push]
+jobs:
+ cypress-run:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: cypress-io/github-action@v2
+        with:
+          start: npm install
+          run: npm run testMS
+          browser: electron
+          headless: true
